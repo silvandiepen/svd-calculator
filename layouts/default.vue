@@ -3,7 +3,7 @@ div
 	header
 		row(center)
 			column(small="1", medium="2:3")
-				h3.logo namer
+				h3.logo calculator
 	main.bg-white
 		<nuxt></nuxt>
 </template>
