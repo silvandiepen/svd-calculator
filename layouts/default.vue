@@ -6,16 +6,15 @@ div
 				h3.logo calculator
 	main.bg-white
 		<nuxt></nuxt>
+	svd-footer
 </template>
 <style>
+
 </style>
-
 <script>
-import headings from '~/static/head.json';
-// import Footer from 'svd-footer'
+import svdFooter from "svd-footer/src/components/svd-footer.vue";
 
-
-export default{
-	head: headings
-}
+export default {
+  components: { svdFooter }
+};
 </script>
